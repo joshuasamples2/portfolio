@@ -1,0 +1,68 @@
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  background-color:#0066ff;
+  margin: 0px; 
+  padding: 0px;
+  height: 35px;
+}
+
+body{
+  margin: 0px;
+}
+
+nav{
+  margin-left: 70%;
+}
+main{
+  display: flex;
+  flex-wrap: wrap;
+}
+#bio {
+  margin-left:2%; 
+  width: 25%;
+}
+#bio img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#bio p{
+font-size: 25px;
+}
+.work{
+  width:70% ;
+  margin-left: 10px;
+ border-width: 3px;
+ display: flex;
+ flex-wrap: wrap;
+}
+.card{
+  width: 300px;
+  height: 300px;
+  margin: 5%;
+
+}
+.card img{
+width:100%;
+margin-top: 0px;
+}
+.card h1, #bio h1{
+  text-align: center;
+  font-size: 40px;
+}
+footer{
+  width:100%;
+  background-color: lightgrey;
+  position:relative;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+
+}
+@media only screen and (max-width:800px){
+#bio{
+  width: 100%;
+}
+}
